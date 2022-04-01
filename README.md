@@ -20,7 +20,7 @@ This is a solution to the [Advice generator app challenge on Frontend Mentor](ht
 
 Users should be able to:
 
-- Check on the dice image to load an advice.
+- Click on the dice image to load an advice.
 - API will need a 2 second pause. 
 
 ### Screenshot
