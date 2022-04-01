@@ -1,0 +1,53 @@
+/* Reset CSS */
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+/* Body Style */
+body {
+    background-color: hsl(218, 23%, 16%);
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Container */
+#container {
+    width: 30vw;
+    min-width: 400px;
+    margin: auto;
+    background-color: hsl(217, 19%, 24%);
+    border-radius: 10px;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    height: auto;
+}
+#container * {
+    font-size: 28px;
+    font-family: Manrope;
+    text-align: center;
+}
+#number {
+    color: hsl(150, 100%, 66%);
+}
+#quote {
+    color: hsl(193, 38%, 86%);
+    padding: 20px 0;
+}
+
+/* Green circle with image */
+#circle {
+    position: relative;
+    margin: 0 auto;
+    top: 60px;
+    background-color: hsl(150, 100%, 66%);
+    width: 24px;
+    height: 24px;
+    padding: 20px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
